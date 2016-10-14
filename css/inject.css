@@ -1,0 +1,89 @@
+body{ font-size:12px; line-height:20px;margin:0;padding:0; color:#666;font-family:"Microsoft YaHei"; background-color:#f6f6f6; }
+h1, h2, h3, h4, h5, h6{ font-size:12px;}
+li, ol { list-style:none; }
+ins { text-decoration:none; }
+i, em { font-style:normal; }
+i{ display:inline-block;}
+a { text-decoration:none; color:#666; cursor:pointer;}
+a:hover { cursor:pointer; text-decoration:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+:focus{outline:0;}
+.clear { clear:both; line-height:0px; overflow:hidden; zoom:1; font-size:0px; content:'.'; }
+.clearAll{ clear:both;zoom:1;}
+a img { border:none; }
+li.clear { float:none; width:auto; height:auto; padding:0; margin:0; }
+input{ border:0 none; padding:0px; margin:0px;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.ftms{ font-family:"Microsoft YaHei"}
+
+/*ÎÄ×Ö¿¿±ß*/
+.tl { text-align:left!important; }.tc { text-align:center!important; }.tr { text-align:right!important; }
+/*Ëõ½ø*/
+.ti2 { text-indent:2em; }
+.site{
+    height: 38px;
+    padding-top: 30px;
+}
+.site p{
+    float: left;
+}
+.site p img{
+    padding: 0 5px;
+}
+.box-j{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.box-j-l{
+    float: left;
+    width: 246px;
+    height: 1800px;
+    background-color: #FFFFFF;
+    background: url("../img/xian.jpg");
+}
+.box-dh{
+    width: 235px;
+    margin-left: 11px;
+    background-color: #41bed2;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-top: -5px;
+    text-align: center;
+}
+.box-dh p a{
+    display: block;
+    color: #fff;
+    padding: 6px 0;
+}
+.box-dh p:hover{
+    background-color: #27a9be;
+}
+.box-dh p:hover a{
+    color: #FF3;
+}
+.box-j-r{
+    width: 854px;
+    height: 1600px;
+    float: right;
+    padding: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #3F3F3F;
+}
+.box-j-r-l{
+    width: 854px;
+    overflow: hidden;
+}
+.box-j-r-l p{
+    float: left;
+}
+.mzml{
+    margin-top: 60px;
+}
